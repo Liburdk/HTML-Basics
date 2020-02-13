@@ -1,0 +1,17 @@
+body {
+  font-family: verdana;
+  font-size: 90%;
+}
+h1 {
+  color: dark yellow;
+  font-family: verdana;
+  font-size: 300%;
+  text-align:center;
+}
+p {
+  color: dark yellow;
+  font-family: verdana;
+  font-size: 90%;
+  border: 1px solid black;
+  padding: 20px;
+}

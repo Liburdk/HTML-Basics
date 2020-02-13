@@ -1,0 +1,48 @@
+<! DOCTYPE html>
+
+<Html lang= "en-us">
+
+<Head>
+
+
+		<title>Customer Information Form</title>
+
+		<link rel= "stylesheet" href= "styles.css">
+		<meta charset= "UTF-8">
+
+</Head>
+
+<Body style="background-color:lavender;">
+
+<p>Hi! So happy you're here! To get started let's get some information from you!</p>
+<p> Please enter your full name and Email address below. </p>
+
+<h1 style= "text-align: center;" >Customer Information Form </h1>
+
+<!-- Here is where the user's information will be collected -->
+<form id= "customerInformationForm" action= "onsubmit=" return validationForm()" method="post">
+
+	<fieldset>
+
+		<legend>Customer Information Form: </legend>
+		First Name: <br>
+		<input type="text" name="firstname" value="">
+		<br><br>
+
+		Last Name: <br>
+		<input type="text" name="lastname" value="">
+		<br><br>
+
+		Email: <br>
+		<input type="email" name="Email" value="">
+		<br><br>
+		
+		<input type="Submit" onclick="validateForm" value="Submit">
+
+		
+		</fieldset>
+
+
+	</Form>
+	</Body>
+	</Html>
